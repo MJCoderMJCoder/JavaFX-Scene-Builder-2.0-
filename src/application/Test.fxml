@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="220.0" prefWidth="419.0"
+	xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+	fx:controller="application.TestController">
+	<children>
+		<Button fx:id="testButton" layoutX="371.0" layoutY="183.0"
+			mnemonicParsing="false" onAction="#showDateTime" text="按钮" />
+		<Text fx:id="testText" layoutX="121.0" layoutY="83.0"
+			strokeType="OUTSIDE" strokeWidth="0.0" text="点击按钮获取当前时间"
+			wrappingWidth="169.240234375" />
+	</children>
+</AnchorPane>
